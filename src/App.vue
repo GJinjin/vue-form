@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Form /> -->
+    <Tree />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  // import Form from './components/form/';
+  import Tree from './components/tree';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default {
+    name: 'App',
+    components: {
+      // Form,
+      Tree
+    }
   }
-}
 </script>
 
 <style>
