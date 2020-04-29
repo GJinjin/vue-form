@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <!-- <Form /> -->
-    <Tree />
+    <!-- <Tree /> -->
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+    <router-view />
   </div>
 </template>
 
 <script>
   // import Form from './components/form/';
-  import Tree from './components/tree';
+  // import Tree from './components/tree';
 
   export default {
     name: 'App',
     components: {
       // Form,
-      Tree
+      // Tree
     }
   }
 </script>
